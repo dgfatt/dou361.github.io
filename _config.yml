@@ -122,7 +122,7 @@ links:
 
 #### Comment 评论
 duoshuo_shortname:    ## e.g. wuchong   your duoshuo short name.
-disqus_shortname:     ## e.g. wuchong   your disqus short name.
+disqus_shortname: dou361-com    ## e.g. wuchong   your disqus short name.
 
 #### Share button 分享按钮
 jiathis:
@@ -132,7 +132,7 @@ jiathis:
 
 #### Analytics 网站统计
 google_analytics:
-  enable: false
+  enable: true
   id:        ## e.g. UA-46321946-2 your google analytics ID.
   site:      ## e.g. wuchong.me your google analytics site or set the value as auto.
 ## You MUST upgrade to Universal Analytics first!
