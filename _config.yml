@@ -30,7 +30,7 @@ defaults:
       layout: "post"
       
 #### Pagination 分页
-paginate: 20
+paginate: 10
 
 #### Site 网站
 title : dou361
@@ -121,8 +121,8 @@ links:
   江清清的技术专栏: http://www.lcode.org
 
 #### Comment 评论
-duoshuo_shortname:    ## e.g. wuchong   your duoshuo short name.
-disqus_shortname: dou361-com    ## e.g. wuchong   your disqus short name.
+duoshuo_shortname:  ## e.g. wuchong   your duoshuo short name.
+disqus_shortname:  dou361-com    ## e.g. wuchong   your disqus short name.
 
 #### Share button 分享按钮
 jiathis:

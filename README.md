@@ -6,12 +6,12 @@ blog结构说明
 
 	_data			网站关键字语言国际化
 	_drafts			草稿临时文件
-	_includes
+	_includes		加载包含部分方便重用
 	_layouts		布局
 	_plugins		插件
 	_posts			帖子markdown文章存放
 	_site			jekyll方式生成的网站内容
-	about
+	about			关于
 	archives		归档
 	assets			网站基本的网页内容
 	categories		分类
@@ -26,3 +26,5 @@ blog结构说明
 	index.html		首页
 	rss.xml			订阅
 	sitemap.txt		站点地图
+
+
