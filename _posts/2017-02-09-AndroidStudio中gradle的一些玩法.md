@@ -3,6 +3,8 @@ title: Android Studio中gradle的一些玩法
 date: 2017-02-09 20:30:00
 categories: AndroidStudio
 tags: gradle语法
+description: 有一些人反映在github上下载的项目或者作为module导入你的项目中，运行不起来。或者几经折腾才勉强运行起来，不知道你有没有这种感觉，如果你有这种困惑不妨继续阅读下文，相信本文能帮到你。
+photos: image-1.png
 
 ---
 
