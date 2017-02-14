@@ -28,3 +28,37 @@ blog结构说明
 	sitemap.txt		站点地图
 
 
+## _layouts模板
+
+	default.html 公共部分，所有的模板都共用这部分模板
+	page.html 关于我们
+	archives.html 归档
+	categories.html 分类
+	tags.html 标签
+	photo.html 图片
+	post.html 帖子
+	search.html 搜索
+
+## _includes包括
+
+	layout.html 公共部分，所有的模板都共用这部分模板
+	page.html 关于我们
+	archives.html 归档
+	categories.html 分类
+	tags.html 标签
+	index.html 首页
+	post.html 帖子
+	search.html 搜索
+
+### _partial部分
+
+### _widget控件
+首页中侧边栏展示的内容
+
+	category.html 分类
+	douban.html 豆瓣
+	links.html 友情链接
+	rss.html 订阅
+	tag.html 标签
+	weibo.html 微博
+
