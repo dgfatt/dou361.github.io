@@ -1,7 +1,7 @@
 ---
 title: Android Studio中gradle的一些玩法
 date: 2017-02-09 20:30:00
-categories: Android Studio
+categories: AndroidStudio
 tags: gradle语法
 
 ---
