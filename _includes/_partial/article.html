@@ -5,6 +5,15 @@
     <article class="post-expand {{ item.layout }}" itemprop="articleBody"> 
         {% include _partial/post/header.html %}
     <div class="article-content">
+	
+		{% if site.item_img_show == true %}
+			{% if item.img %}
+			<img width="100%" src="{{site.baseurl}}/images/{{item.img}}">
+			{% else %}
+			<img width="100%" src="{{site.baseurl}}/images/image-1.png">
+			{% endif %}
+		{% endif %}
+				  
 		{% if item.description and index %}
 		{{ item.description }}
         {% elsif item.excerpt and index %}

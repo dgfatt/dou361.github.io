@@ -78,10 +78,11 @@ banner_img: #img/banner.jpg ## size:1920px*200px+. Banner Picture
 #### index post is expanding or not 首页模式
 index:
   expand: true           ## default is unexpanding,so you can only see the short description of each post.
-  excerpt_link: 查看更多  
+  excerpt_link: 查看更多 
 
 close_aside: false  #close sidebar in post page if true
 mathjax: true      #enable mathjax if true
+item_img_show: false ## 首页中item中是否显示封面图片  
 
 #### Author information 作者信息
 author:
