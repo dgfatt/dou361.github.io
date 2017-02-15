@@ -28,43 +28,45 @@ blog结构说明
 	sitemap.txt		站点地图
 
 
+## index.html		首页 layout index.html
+
 ## _layouts模板
 
-	default.html		公共部分，所有的模板都共用这部分模板
-	page.html			关于我们
-	archives.html		归档
-	categories.html		分类
-	tags.html			标签
-	photo.html			图片
-	post.html			帖子
-	search.html			搜索
+	layout.html		公共部分，所有的模板都共用这部分模板
+	page.html			首页 layout page.html
+	archives.html		归档 layout archives.html
+	categories.html		分类 layout categories.html
+	tags.html			标签 layout tags.html
+	photo.html			图片 layout post.html
+	post.html			帖子 layout post.html
+	search.html			搜索 layout
 
 ## _includes包括
 
 	layout.html			公共部分，所有的模板都共用这部分模板
-	page.html			关于我们
-	archives.html		归档
-	categories.html		分类
-	tags.html			标签
 	index.html			首页
-	post.html			帖子
-	search.html			搜索
+	page.html			首页 _partial/archive.html
+	archives.html		归档 _partial/archive.html
+	categories.html		分类 _partial/archive.html
+	tags.html			标签 _partial/archive.html
+	post.html			帖子 _partial/archive.html
+	search.html			搜索 _partial/search.html
 
 ### _partial部分
 
-	after_footer.html
-	analytics.html
-	archive.html
-	article.html
-	article_row.html
-	footer.html
-	head.html
-	header.html
+	after_footer.html	首页底部之后（主要是js函数 分析 回到顶部 mathjax tinysou_search）
+	analytics.html		分析
+	archive.html		归档（根据首页、归档、分类、标签显示对应的）
+	article.html		文章（item显示或者详情显示）
+	article_row.html	文章行显示
+	footer.html			首页底部（版权声明）
+	before_header.html	首页头部之前（js link）
+	header.html			首页头部（网站名称 菜单 搜索）
 	mathjax.html
 	search.html
-	sidebar.html
+	sidebar.html		侧边栏（右边的控件内容）
 	tinysou_search.html
-	totop.html				回到顶部
+	totop.html			回到顶部
 
 #### post
 

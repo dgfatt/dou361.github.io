@@ -3,6 +3,7 @@ title: 在win8、10中不可拖拽图片到Photoshop问题解决
 date: 2016-01-23 23:30:09
 categories: Photoshop
 tags: Photoshop
+description: 解决在win8、10中不可拖拽图片到Photoshop问题。
 
 ---
 

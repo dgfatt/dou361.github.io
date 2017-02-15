@@ -3,6 +3,7 @@ title: 基于ijkplayer封装支持简单界面UI定制的视频播放器
 date: 2016-08-25 00:14:39
 categories: Android
 tags: 播放器
+description: 当前项目是基于[ijkplayer][url1]项目进行的播放器界面UI封装。是一个适用于 Android 的 RTMP 直播推流 SDK，可高度定制化和二次开发。特色是同时支持 H.264 软编／硬编和 AAC 软编／硬编。主要是支持RIMP、HLS、MP4、M4A等视频格式的播放。
 
 ---
 
@@ -10,8 +11,7 @@ tags: 播放器
 
 ## 简介 ##
 
-当前项目是基于[ijkplayer][url1]项目进行的播放器界面UI封装。
-是一个适用于 Android 的 RTMP 直播推流 SDK，可高度定制化和二次开发。特色是同时支持 H.264 软编／硬编和 AAC 软编／硬编。主要是支持RIMP、HLS、MP4、M4A等视频格式的播放。
+当前项目是基于[ijkplayer][url1]项目进行的播放器界面UI封装。是一个适用于 Android 的 RTMP 直播推流 SDK，可高度定制化和二次开发。特色是同时支持 H.264 软编／硬编和 AAC 软编／硬编。主要是支持RIMP、HLS、MP4、M4A等视频格式的播放。
 项目地址：[http://www.github.com/jjdxmashl/jjdxm_ijkplayer][project]
 
 ## 特性 ##

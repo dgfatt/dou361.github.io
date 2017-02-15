@@ -3,6 +3,7 @@ title: Android基础08C语言及NDK开发
 date: 2017-01-26 08:30:00
 categories: Android
 tags: Android基础
+description: JNI课程涉及C语言的基本语法,JNI规范和NDK的使用，通过NDK编译生成动态库，实现了Java代码和C代码的相互调用。
 
 ---
 

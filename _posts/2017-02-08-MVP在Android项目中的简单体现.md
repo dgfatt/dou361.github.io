@@ -3,6 +3,7 @@ title: MVP在Android项目中的简单体现
 date: 2017-02-08 08:14:39
 categories: Android
 tags: MVP
+description: MVP模式是一种架构模式，也是一种经典的界面模式。MVP中的M代表Model, V是View, P是Presenter。
 
 ---
 
