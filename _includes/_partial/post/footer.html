@@ -14,6 +14,12 @@
 {% endif %}
 {% if index %}
 <div class="comments-count">
+
+	{% if site.url == "127.0.0.1" %}
+	{% else %}
+	热度<script type="text/javascript"> requestCount("{{ site.baseurl }}{{ item.url }}") </script>  
+	{% endif %}
+
 	{% if (site.disqus_shortname or site.disqus_shortname) and !site.duoshuo_shortname %}
 	  	<span></span>
 		<a href="{{ site.baseurl }}{{ item.url }}#disqus_thread" class="comments-count-link">Comments</a>
