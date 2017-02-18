@@ -1,11 +1,10 @@
-#### Exclude 排除项
+#### 排除项
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 
-#### Code Highlighter 代码高亮
+#### 代码高亮
 highlighter: pygments
 
-#### Permalink 固定链接
-# For more see: http://jekyllrb.com/docs/permalinks/
+#### 固定链接
 permalink: /:categories/:year/:month/:day/:title 
 
 #### Markdown Processors
@@ -20,7 +19,7 @@ redcarpet:
     - lax_spacing
     - with_toc_data
 
-#### Default Attributes 默认属性
+#### 默认属性
 defaults:
   -
     scope:
@@ -29,19 +28,19 @@ defaults:
     values:
       layout: "post"
       
-#### Pagination 分页
-paginate: 10
+#### 分页
+paginate: 10 ## 每页显示数量
 
-#### Site 网站
+#### 网站
 title : dou361
 tagline: 个人博客 技术交流 经验总结与分享
 assets: /assets
 baseurl: 
 
-#### Language 语言
-language: zh-CN    ## blog site languages: en, zh-CN, zh-TW
+#### 语言
+language: zh-CN    ## 当前博客提供了三种语言: en, zh-CN, zh-TW
 
-#### Menu 菜单
+#### 菜单
 menu:
   首页: /
   归档: /archives
@@ -53,38 +52,41 @@ menu:
 ## title: tags (or categories)
 ## ---
 
-#### Widgets 控件
+#### 控件，提供了8种小工具。包括标签、标签云、分类、归档、RSS、友情链接、微博秀、豆瓣。
+#### category、tag、rss、archive、tagcloud、links、weibo、douban
 widgets: 
 - category
 - tag
 - links
-- douban
 - rss
-## provide seven widgets:category,tag,rss,archive,tagcloud,links,weibo,douban
 
 
-#### RSS 订阅
-rss: /atom.xml ## RSS address.
+#### 订阅
+rss: /atom.xml ## 订阅地址
 
-#### Image 图片相关
+#### 图片相关
 imglogo:
-  enable: true             ## display image logo true/false.
+  enable: true             ## 是否显示网站logo。display image logo true/false.
   src: img/logo.png        ## `.svg` and `.png` are recommended,please put image into the theme folder `/jacman/source/img`.
-favicon: img/favicon.ico   ## size:32px*32px,`.ico` is recommended,please put image into the theme folder `/jacman/source/img`.     
+favicon: img/favicon.ico   ## 网站图标 size:32px*32px,`.ico` is recommended,please put image into the theme folder `/jacman/source/img`.     
 apple_icon: img/jacman.jpg ## size:114px*114px,please put image into the theme folder `/jacman/source/img`.
 author_img: img/author.jpg ## size:220px*220px.display author avatar picture.if don't want to display,please don't set this.
-banner_img: #img/banner.jpg ## size:1920px*200px+. Banner Picture
+banner_img: img/banner.jpg ## size:1920px*200px+. Banner Picture
 
-#### index post is expanding or not 首页模式
+#### 主题颜色
+theme_color:
+    theme: '#00ff00'    ##the defaut theme color is blue
+
+#### 首页显示模式，一种是原先的卡片式，另一种是类似官方主题的文章展开式
 index:
-  expand: true           ## default is unexpanding,so you can only see the short description of each post.
-  excerpt_link: 查看更多 
+  expand: true           ## 首页文章是否展开。默认为展开式
+  excerpt_link: 查看更多  ## expand: true时的提示语。
 
 close_aside: false  #close sidebar in post page if true
 mathjax: true      #enable mathjax if true
 item_img_show: false ## 首页中item中是否显示封面图片  
 
-#### Author information 作者信息
+#### 作者信息
 author:
   name: 小路飞      ## e.g. wuchong Author name
   intro_line1:  "Hello ,I'm Larry Page in Google."    ## your introduction on the bottom of the page
@@ -104,14 +106,12 @@ author:
   qq_group:  ## 548545202
 ## if you set them, the corresponding  share button will show on the footer
 
-#### Toc 目录
+#### 目录
 toc:
-  article: true   ## show contents in article.
-  aside: true     ## show contents in aside.
-## you can set both of the value to true of neither of them.
-## if you don't want display contents in a specified post,you can modify `front-matter` and add `toc: false`.
+  article: true   ## 是否在文章中显示目录
+  aside: true     ## 是否在侧边栏显示目录
 
-#### Links 友情链接
+#### 友情链接
 links:
   掘金: https://gold.xitu.io
   简书: http://www.jianshu.com
@@ -121,17 +121,17 @@ links:
   诸葛先生的小站: http://www.litecoder.xyz
   江清清的技术专栏: http://www.lcode.org
 
-#### Comment 评论
+#### 评论，下面内置了多说和disqus的评论插件，二选一，如果想用其它的评论需要额外内嵌代码
 duoshuo_shortname: dou361  ## e.g. wuchong   your duoshuo short name.
 disqus_shortname:  ## e.g. wuchong   your disqus short name.
 
-#### Share button 分享按钮
+#### 分享按钮
 jiathis:
-  enable: false ## if you use jiathis as your share tool,the built-in share tool won't be display.
+  enable: false ## 加网 if you use jiathis as your share tool,the built-in share tool won't be display.
   id:    ## e.g. 1889330 your jiathis ID. 
   tsina: ## e.g. 2176287895 Your weibo id,It will be used in share button.
 
-#### Analytics 网站统计
+#### 网站统计 内置google、baidu、cnzz三个，三选一
 google_analytics:
   enable: false
   id:        ## e.g. UA-46321946-2 your google analytics ID.
@@ -145,11 +145,11 @@ cnzz_tongji:
   enable: false
   siteid:    ## e.g. 1253575964 your cnzz tongji site id
 
-#### Miscellaneous 其他
+#### 其他
 fancybox: true        ## if you use gallery post or want use fancybox please set the value to true.
 totop: true           ## if you want to scroll to top in every post set the value to true
 
-#### Custom Search 搜索
+#### 搜索，内置google、baidu、tinysou三个，三选一
 google_cse: 
   enable: false
   cx: 018294693190868310296:abnhpuysycw  ## e.g. 018294693190868310296:abnhpuysycw your Custom Search ID.
@@ -160,8 +160,8 @@ google_cse:
 ## title: search
 ## ---
 baidu_search:     ## http://zn.baidu.com/
-  enable: false
-  id:   ## e.g. "783281470518440642"  for your baidu search id
+  enable: true
+  id: 6201335013831888574 ## e.g. "783281470518440642"  for your baidu search id
   site: http://zhannei.baidu.com/cse/search  ## your can change to your site instead of the default site
 tinysou_search:     ## http://tinysou.com/
   enable: false
